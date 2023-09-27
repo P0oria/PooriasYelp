@@ -82,14 +82,12 @@ To use Pooria's Yelp, follow these steps:
 1. Install the application on your Android device or emulator.
 2. Use the search bar to find restaurants based on your preferences.
 3. Explore search results, sort them by rating or price, and add your favorite restaurants to the "Favorites" list.
-
-   <img width="329" alt="Screenshot 2023-09-27 at 3 20 40 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/38f9ccb1-683f-4417-9c63-fccca49424e2">
-   <img width="337" alt="Screenshot 2023-09-27 at 3 20 50 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/6d784a3d-564c-42f4-aa55-f8e18830f14d">
-   <img width="336" alt="Screenshot 2023-09-27 at 3 21 12 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/8f9ea053-aa82-48fc-98bc-e189f362a9f4">
-   <img width="334" alt="Screenshot 2023-09-27 at 3 21 25 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/ca35c476-f035-4b8b-9f83-ef804a0f2482">
-   <img width="333" alt="Screenshot 2023-09-27 at 3 21 43 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/e8a3143f-a1d1-46a4-9254-9c422e59e6f8">
-   <img width="333" alt="Screenshot 2023-09-27 at 3 21 56 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/7b71855b-d70a-4e35-a8fe-d35a7af74794">
-
+<img width="329" alt="Screenshot 2023-09-27 at 3 20 40 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/8bd457ec-91e8-488f-9839-f736cdd34922">
+<img width="337" alt="Screenshot 2023-09-27 at 3 20 50 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/836355e3-4941-45d4-90cb-66e276cfc500">
+<img width="336" alt="Screenshot 2023-09-27 at 3 21 12 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/2daed393-5f4b-4353-88f9-4ec5cce476d7">
+<img width="334" alt="Screenshot 2023-09-27 at 3 21 25 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/505186d9-acd7-406e-a09f-ef25e22a087a">
+<img width="333" alt="Screenshot 2023-09-27 at 3 21 43 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/30ca235d-0048-42ba-a217-ac3b8eb52c29">
+<img width="333" alt="Screenshot 2023-09-27 at 3 21 56 PM" src="https://github.com/P0oria/PooriasYelp/assets/116241252/ec995b70-c66c-49aa-9ee1-5909ef4e3cd8">
 
 
 
