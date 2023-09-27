@@ -37,7 +37,7 @@ Before you can use Pooria's Yelp, ensure that you have the following prerequisit
 
 To access the Yelp Fusion API and retrieve restaurant data, you'll need to obtain an API key. Follow these steps to get your API key:
 
-1. Visit the Yelp Fusion API website: [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/get_started).
+1. Visit the Yelp Fusion API website: [Yelp Fusion API]([https://www.yelp.com/developers/documentation/v3/get_started](https://docs.developer.yelp.com/docs/fusion-intro)).
 2. Create a Yelp account or log in if you already have one.
 3. Once logged in, go to the [Create App](https://www.yelp.com/developers/v3/manage_app) page.
 4. Create a new app and fill in the required information. 
