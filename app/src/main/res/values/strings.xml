@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pooria\'s Yelp</string>
+    <string name="primary_menu">Search</string>
+    <string name="secondary_menu">Favorites</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <array name="spinner_items">
+        <item>Rating</item>
+        <item>Price</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
