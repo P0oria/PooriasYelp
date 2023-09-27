@@ -42,7 +42,7 @@ To access the Yelp Fusion API and retrieve restaurant data, you'll need to obtai
 3. Once logged in, go to the [Create App](https://www.yelp.com/developers/v3/manage_app) page.
 4. Create a new app and fill in the required information. 
 5. Upon app creation, you will be provided with an API key. Keep this key secure, as it will be needed to authenticate requests to the API.
-6. Replace the text YOUR API KEY with your own API key on line 22 of app>java>com.pooria.pooriasyelp>RetrofitClient. 
+6. Replace the text YOUR API KEY with your own API key on line 23 of app>java>com.pooria.pooriasyelp>RetrofitClient. 
 
 ## Features
 
