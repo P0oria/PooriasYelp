@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 
+// Represents the response data structure from the Yelp Fusion API.
 public class DataResponse {
 
     @SerializedName("total")

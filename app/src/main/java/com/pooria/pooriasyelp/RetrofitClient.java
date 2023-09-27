@@ -8,6 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.io.IOException;
 
+// Retrofit client for making API requests.
 public class RetrofitClient {
 
     private static RetrofitClient retrofitClient = null;

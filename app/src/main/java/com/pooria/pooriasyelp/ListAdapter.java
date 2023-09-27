@@ -13,6 +13,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+// Custom adapter for populating the restaurant list.
 public class ListAdapter extends BaseAdapter {
 
     Context context;
@@ -23,6 +24,7 @@ public class ListAdapter extends BaseAdapter {
         this.businesses = businesses;
     }
 
+    // Implement the required methods for the adapter.
     @Override
     public int getCount() {
         return businesses.size();

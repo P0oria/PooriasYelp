@@ -6,25 +6,19 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Spinner;
-import android.widget.Toast;
-
+import android.widget.*;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-
+// Fragment for searching and displaying restaurant results.
 public class SearchFragment extends Fragment implements SearchView.OnQueryTextListener {
 
     SearchView searchView;
@@ -140,7 +134,7 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
     public void getRestaurantCall(String term) {
 
         Call<DataResponse> call = RetrofitClient.getInstance().getApi().getRestaurant(term,
-                "Montreal", 30);
+                "Montreal", 30); // You can enter your location here
 
         call.enqueue(new Callback<DataResponse>() {
             @Override

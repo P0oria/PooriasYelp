@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// Helper class for managing the SQLite database used to store favorite businesses.
 public class BusinessDatabaseHelper extends SQLiteOpenHelper {
 
     final static String DATABASE = "BUSINESS_DATABASE";
@@ -31,6 +32,8 @@ public class BusinessDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
+        // Create the "FAVORITES" table in the database.
         db.execSQL("CREATE TABLE " + TABLE_NAME + " (" +
                 COL_ID + " TEXT PRIMARY KEY," +
                 COL_NAME + " TEXT," +
@@ -43,12 +46,14 @@ public class BusinessDatabaseHelper extends SQLiteOpenHelper {
                 ")");
     }
 
+    // Drop and recreate the table if the database schema changes.
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(db);
     }
 
+    // Method to add a business to the "FAVORITES" table.
     public boolean addFavorite(Business business) {
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -83,6 +88,7 @@ public class BusinessDatabaseHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
+    // Method to retrieve all favorite businesses from the database.
     public ArrayList<Business> getAllFavorites() {
         ArrayList<Business> businessList = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
@@ -129,6 +135,7 @@ public class BusinessDatabaseHelper extends SQLiteOpenHelper {
         return businessList;
     }
 
+    // Method to remove a business from the "FAVORITES" table.
     public boolean removeFavorite(Business business) {
         SQLiteDatabase db = this.getWritableDatabase();
 

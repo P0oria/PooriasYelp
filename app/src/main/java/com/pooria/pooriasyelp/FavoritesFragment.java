@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 
+// Fragment class for managing and displaying favorite businesses.
 public class FavoritesFragment extends Fragment {
 
     private BusinessDatabaseHelper businessDatabaseHelper;
@@ -22,6 +23,7 @@ public class FavoritesFragment extends Fragment {
     private ArrayList<Business> favoriteBusinesses;
     private BusinessDatabaseHelper db;
 
+    // Factory method to create a new instance of the FavoritesFragment.
     public static FavoritesFragment newInstance() {
         return new FavoritesFragment();
     }
@@ -39,6 +41,7 @@ public class FavoritesFragment extends Fragment {
         listView = view.findViewById(R.id.favorite_list);
         loadFavorites();
 
+        // Set up a click listener for each favorite business item.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -70,6 +73,7 @@ public class FavoritesFragment extends Fragment {
         return view;
     }
 
+    // Load and display the list of favorite businesses.
     private void loadFavorites() {
         favoriteBusinesses = businessDatabaseHelper.getAllFavorites();
         if (favoriteBusinesses != null && !favoriteBusinesses.isEmpty()) {
@@ -84,6 +88,4 @@ public class FavoritesFragment extends Fragment {
             Toast.makeText(getActivity(), "No favorite items!", Toast.LENGTH_LONG).show();
         }
     }
-
-
 }
